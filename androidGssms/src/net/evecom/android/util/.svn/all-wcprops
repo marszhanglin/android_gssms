@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/2014/!svn/ver/10132/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util
+END
+ShareUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util/ShareUtil.java
+END
+HttpMultipartPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util/HttpMultipartPost.java
+END
+PhoneUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util/PhoneUtil.java
+END
+CustomMultipartEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util/CustomMultipartEntity.java
+END
+AppInfoUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util/AppInfoUtil.java
+END
+UiUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util/UiUtil.java
+END
+HttpUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util/HttpUtil.java
+END
+MyHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util/MyHttpRequest.java
+END
+UpdateInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/2014/!svn/ver/10132/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/util/UpdateInfo.java
+END

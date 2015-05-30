@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dp"
+    android:background="#00000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/search_for_main_person_list_item2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:padding="7dp" 
+            android:text="姓名:"
+            android:textColor="#f46101"
+            android:textSize="19sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+<!-- android:singleLine="true" -->
+        <TextView
+            android:id="@+id/search_for_main_person_list_item2_birth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="出身年月:"
+            android:textColor="#666666"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/search_for_main_person_list_item2_sex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="性别："
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/search_for_main_person_list_item2_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="户籍住址："
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</LinearLayout>

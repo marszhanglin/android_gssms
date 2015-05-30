@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/2014/!svn/ver/10132/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/receive
+END
+PowerOnBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/receive/PowerOnBroadcastReceiver.java
+END
+ShutdownBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/2014/!svn/ver/11914/rd3/sourcecode/gssms/gssmsAndroid/src/net/evecom/android/receive/ShutdownBroadcastReceiver.java
+END
