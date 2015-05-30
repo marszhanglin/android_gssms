@@ -1,0 +1,573 @@
+# view AndroidManifest.xml #generated:207
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/get_tdt_map2.xml #generated:47
+-keep class com.tianditu.android.maps.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class net.evecom.android.AfinalAudioActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class net.evecom.android.AfinalVideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class net.evecom.android.AfnailPictureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class net.evecom.android.AfnailPictureFromWebActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class net.evecom.android.DailyWorkActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class net.evecom.android.EventAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class net.evecom.android.EventAddActivity1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class net.evecom.android.Exit { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class net.evecom.android.ExitFromSettings { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class net.evecom.android.MainOneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class net.evecom.android.MainPersonListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class net.evecom.android.MianPeopleVisitActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class net.evecom.android.MianPeopleVisitAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class net.evecom.android.MianPeopleVisitEditActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:131
+-keep class net.evecom.android.MianPeopleVisitSearchForMianPersonActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:146
+-keep class net.evecom.android.MianPlaceCheckAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class net.evecom.android.MianPlaceCheckEditActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class net.evecom.android.MianPlaceCheckSearchForMianPlaceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class net.evecom.android.MianPlaceCheckVisitActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class net.evecom.android.PowerOnBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class net.evecom.android.PublicOpinionAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class net.evecom.android.PublicOpinionLookActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:176
+-keep class net.evecom.android.PublicOpinionXiugaiActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class net.evecom.android.PublicOpinionlistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class net.evecom.android.SearchForMianPersonActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class net.evecom.android.SystemSetingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class net.evecom.android.UploadAudioActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class net.evecom.android.UploadPictureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class net.evecom.android.UploadVideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class net.evecom.android.Welcome { <init>(...); }
+
+# view AndroidManifest.xml #generated:202
+-keep class net.evecom.android.gps.GPSActivity { <init>(...); }
+
+# view res/layout/get_baidu_map2.xml #generated:56
+-keep class net.evecom.android.gps.MyLocationMapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class net.evecom.android.gps.tdt.TDTLocation { <init>(...); }
+
+# view AndroidManifest.xml #generated:223
+-keep class net.evecom.android.gps_service.StatusTDTService { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class net.evecom.android.log.DailyLogAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class net.evecom.android.log.DailyLogListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class net.evecom.android.log.DailyLogLookActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:237
+-keep class net.evecom.android.receive.PowerOnBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:229
+-keep class net.evecom.android.receive.ShutdownBroadcastReceiver { <init>(...); }
+
+# view 480x320\res/layout-480x320/main_tab_weixin.xml #generated:25
+# view 640x360\res/layout-640x360/main_tab_weixin.xml #generated:23
+# view 800x480\res/layout-800x480/main_tab_weixin.xml #generated:23
+# view res/layout/main_tab_weixin.xml #generated:25
+-keep class net.evecom.android.view.MyImageButton { <init>(...); }
+
+# view res/layout/base_dialog_info.xml #generated:10
+# view res/layout/base_dialog_info2.xml #generated:10
+# view res/layout/system_seting.xml #generated:195
+-keep class net.evecom.android.view.wheel.WheelView { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class net.evecom.android.web.Web0Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class net.evecom.android.web.Web2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class net.evecom.android.web.Web3Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class net.evecom.android.web.Web4Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class net.evecom.android.web.Web5Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class net.evecom.android.web.WebdbActivity { <init>(...); }
+
+# onClick res/layout/main_persion_list.xml #generated:105
+# onClick res/layout/main_persion_list.xml #generated:114
+# onClick res/layout/main_persion_list.xml #generated:97
+# onClick res/layout/mian_people_visit.xml #generated:147
+# onClick res/layout/mian_people_visit.xml #generated:155
+# onClick res/layout/mian_people_visit.xml #generated:164
+# onClick res/layout/mian_place_check_list.xml #generated:142
+# onClick res/layout/mian_place_check_list.xml #generated:150
+# onClick res/layout/mian_place_check_list.xml #generated:159
+# onClick res/layout/uploadaudio.xml #generated:137
+# onClick res/layout/uploadaudio.xml #generated:145
+# onClick res/layout/uploadaudio.xml #generated:154
+-keepclassmembers class * { *** add(...); }
+
+# onClick res/layout/daily_log_list.xml #generated:100
+# onClick res/layout/daily_log_list.xml #generated:83
+# onClick res/layout/daily_log_list.xml #generated:91
+-keepclassmembers class * { *** daily_log_add_list_btn_add(...); }
+
+# onClick res/layout/daily_log_look_activity.xml #generated:261
+# onClick res/layout/daily_log_look_activity.xml #generated:270
+# onClick res/layout/daily_log_look_activity.xml #generated:278
+-keepclassmembers class * { *** daily_log_more_delete(...); }
+
+# onClick res/layout/daily_log_look_activity.xml #generated:236
+# onClick res/layout/daily_log_look_activity.xml #generated:244
+# onClick res/layout/daily_log_look_activity.xml #generated:253
+-keepclassmembers class * { *** daily_log_xg(...); }
+
+# onClick 800x480\res/layout-800x480/daily_work.xml #generated:42
+# onClick res/layout/daily_work.xml #generated:42
+-keepclassmembers class * { *** daily_work_gzrz(...); }
+
+# onClick 800x480\res/layout-800x480/daily_work.xml #generated:120
+# onClick res/layout/daily_work.xml #generated:120
+-keepclassmembers class * { *** daily_work_rcjc(...); }
+
+# onClick 800x480\res/layout-800x480/daily_work.xml #generated:81
+# onClick res/layout/daily_work.xml #generated:81
+-keepclassmembers class * { *** daily_work_ryzf(...); }
+
+# onClick 800x480\res/layout-800x480/daily_work.xml #generated:159
+# onClick res/layout/daily_work.xml #generated:159
+-keepclassmembers class * { *** daily_work_sqmy(...); }
+
+# onClick res/layout/picture_view.xml #generated:47
+# onClick res/layout/picture_view.xml #generated:56
+# onClick res/layout/picture_view.xml #generated:65
+# onClick res/layout/video_view.xml #generated:103
+# onClick res/layout/video_view.xml #generated:112
+# onClick res/layout/video_view.xml #generated:95
+-keepclassmembers class * { *** delete(...); }
+
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:138
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:138
+# onClick res/layout/event_add_activity.xml #generated:138
+# onClick res/layout/public_opinion_add_activity.xml #generated:100
+-keepclassmembers class * { *** event_add_gps_btn(...); }
+
+# onClick res/layout/public_opinion_look_activity.xml #generated:102
+-keepclassmembers class * { *** event_look_gps_btn(...); }
+
+# onClick res/layout/public_opinion_xiugai_activity.xml #generated:100
+-keepclassmembers class * { *** event_xiugai_gps_btn(...); }
+
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:559
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:567
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:576
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:561
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:569
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:578
+# onClick res/layout/event_add_activity.xml #generated:568
+# onClick res/layout/event_add_activity.xml #generated:576
+# onClick res/layout/event_add_activity.xml #generated:585
+# onClick res/layout/mian_people_visit_add_activity.xml #generated:483
+# onClick res/layout/mian_people_visit_add_activity.xml #generated:491
+# onClick res/layout/mian_people_visit_add_activity.xml #generated:500
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:483
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:491
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:500
+# onClick res/layout/mian_place_check_add_activity.xml #generated:519
+# onClick res/layout/mian_place_check_add_activity.xml #generated:527
+# onClick res/layout/mian_place_check_add_activity.xml #generated:536
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:519
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:527
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:536
+-keepclassmembers class * { *** eventbc(...); }
+
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:509
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:517
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:526
+-keepclassmembers class * { *** eventdelete(...); }
+
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:13
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:585
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:593
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:602
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:13
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:587
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:595
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:604
+# onClick res/layout/event_add_activity.xml #generated:13
+# onClick res/layout/event_add_activity.xml #generated:594
+# onClick res/layout/event_add_activity.xml #generated:602
+# onClick res/layout/event_add_activity.xml #generated:611
+# onClick res/layout/mian_people_visit_add_activity.xml #generated:13
+# onClick res/layout/mian_people_visit_add_activity.xml #generated:509
+# onClick res/layout/mian_people_visit_add_activity.xml #generated:517
+# onClick res/layout/mian_people_visit_add_activity.xml #generated:526
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:13
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:534
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:542
+# onClick res/layout/mian_people_visit_edit_activity.xml #generated:551
+# onClick res/layout/mian_place_check_add_activity.xml #generated:13
+# onClick res/layout/mian_place_check_add_activity.xml #generated:545
+# onClick res/layout/mian_place_check_add_activity.xml #generated:553
+# onClick res/layout/mian_place_check_add_activity.xml #generated:562
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:13
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:572
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:580
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:589
+-keepclassmembers class * { *** eventfh(...); }
+
+# onClick res/layout/exit_dialog.xml #generated:37
+# onClick res/layout/exit_dialog_from_settings.xml #generated:29
+-keepclassmembers class * { *** exitbutton0(...); }
+
+# onClick res/layout/exit_dialog.xml #generated:49
+# onClick res/layout/exit_dialog_from_settings.xml #generated:43
+-keepclassmembers class * { *** exitbutton1(...); }
+
+# onClick 800x480\res/layout-800x480/daily_work.xml #generated:245
+# onClick 800x480\res/layout-800x480/daily_work.xml #generated:253
+# onClick 800x480\res/layout-800x480/daily_work.xml #generated:262
+# onClick 800x480\res/layout-800x480/law_check_three.xml #generated:226
+# onClick 800x480\res/layout-800x480/law_check_three.xml #generated:234
+# onClick 800x480\res/layout-800x480/law_check_three.xml #generated:243
+# onClick 800x480\res/layout-800x480/urgent_manage_three.xml #generated:221
+# onClick 800x480\res/layout-800x480/urgent_manage_three.xml #generated:228
+# onClick 800x480\res/layout-800x480/urgent_manage_three.xml #generated:236
+# onClick res/layout/daily_work.xml #generated:245
+# onClick res/layout/daily_work.xml #generated:253
+# onClick res/layout/daily_work.xml #generated:262
+# onClick res/layout/main_persion_list.xml #generated:122
+# onClick res/layout/main_persion_list.xml #generated:131
+# onClick res/layout/main_persion_list.xml #generated:139
+# onClick res/layout/main_persion_list.xml #generated:14
+# onClick res/layout/mian_people_visit.xml #generated:172
+# onClick res/layout/mian_people_visit.xml #generated:180
+# onClick res/layout/mian_people_visit.xml #generated:189
+# onClick res/layout/mian_people_visit.xml #generated:21
+# onClick res/layout/mian_place_check_list.xml #generated:168
+# onClick res/layout/mian_place_check_list.xml #generated:176
+# onClick res/layout/mian_place_check_list.xml #generated:185
+# onClick res/layout/mian_place_check_list.xml #generated:23
+# onClick res/layout/picture_view.xml #generated:73
+# onClick res/layout/picture_view.xml #generated:81
+# onClick res/layout/picture_view.xml #generated:90
+# onClick res/layout/picture_view_from_web.xml #generated:63
+# onClick res/layout/picture_view_from_web.xml #generated:71
+# onClick res/layout/picture_view_from_web.xml #generated:80
+# onClick res/layout/uploadaudio.xml #generated:162
+# onClick res/layout/uploadaudio.xml #generated:170
+# onClick res/layout/uploadaudio.xml #generated:179
+# onClick res/layout/uploadpictrue.xml #generated:135
+# onClick res/layout/uploadpictrue.xml #generated:142
+# onClick res/layout/uploadpictrue.xml #generated:150
+# onClick res/layout/uploadvideo.xml #generated:173
+# onClick res/layout/uploadvideo.xml #generated:181
+# onClick res/layout/uploadvideo.xml #generated:190
+# onClick res/layout/video_view.xml #generated:120
+# onClick res/layout/video_view.xml #generated:128
+# onClick res/layout/video_view.xml #generated:137
+# onClick res/layout/video_view.xml #generated:14
+-keepclassmembers class * { *** fh(...); }
+
+# onClick res/layout/get_tdt_map2.xml #generated:33
+# onClick res/layout/mian_people_visit.xml #generated:40
+# onClick res/layout/mian_place_check_list.xml #generated:42
+-keepclassmembers class * { *** find_contact_from_net(...); }
+
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:533
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:535
+# onClick res/layout/event_add_activity.xml #generated:542
+# onClick res/layout/public_opinion_add_activity.xml #generated:288
+-keepclassmembers class * { *** findpicture_onclick(...); }
+
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:71
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:83
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:91
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:71
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:83
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:91
+# onClick res/layout/event_add_activity.xml #generated:71
+# onClick res/layout/event_add_activity.xml #generated:83
+# onClick res/layout/event_add_activity.xml #generated:91
+-keepclassmembers class * { *** fswl(...); }
+
+# onClick 800x480\res/layout-800x480/hidden_investigat_three.xml #generated:50
+-keepclassmembers class * { *** hidden_investigat_three_aqyhjs(...); }
+
+# onClick 800x480\res/layout-800x480/hidden_investigat_three.xml #generated:128
+-keepclassmembers class * { *** hidden_investigat_three_aqzgfc(...); }
+
+# onClick 800x480\res/layout-800x480/hidden_investigat_three.xml #generated:234
+# onClick 800x480\res/layout-800x480/hidden_investigat_three.xml #generated:241
+# onClick 800x480\res/layout-800x480/hidden_investigat_three.xml #generated:249
+-keepclassmembers class * { *** hidden_investigat_three_fh(...); }
+
+# onClick 480x320\res/layout-480x320/main_tab_weixin.xml #generated:25
+# onClick 640x360\res/layout-640x360/main_tab_weixin.xml #generated:23
+# onClick 800x480\res/layout-800x480/main_tab_weixin.xml #generated:23
+# onClick res/layout/main_tab_weixin.xml #generated:25
+-keepclassmembers class * { *** jd_click(...); }
+
+# onClick 800x480\res/layout-800x480/law_check_three.xml #generated:42
+-keepclassmembers class * { *** law_check_three_safe_safe_check_aqscdjc(...); }
+
+# onClick 800x480\res/layout-800x480/law_check_three.xml #generated:120
+-keepclassmembers class * { *** law_check_three_safe_safe_check_dfzw(...); }
+
+# onClick 800x480\res/layout-800x480/law_check_three.xml #generated:81
+-keepclassmembers class * { *** law_check_three_safe_safe_check_xzzfjc(...); }
+
+# onClick res/layout/daily_log_add_activity.xml #generated:13
+# onClick res/layout/daily_log_add_activity.xml #generated:263
+# onClick res/layout/daily_log_add_activity.xml #generated:271
+# onClick res/layout/daily_log_add_activity.xml #generated:280
+# onClick res/layout/daily_log_list.xml #generated:109
+# onClick res/layout/daily_log_list.xml #generated:119
+# onClick res/layout/daily_log_list.xml #generated:128
+# onClick res/layout/daily_log_list.xml #generated:15
+# onClick res/layout/daily_log_look_activity.xml #generated:13
+# onClick res/layout/daily_log_look_activity.xml #generated:286
+# onClick res/layout/daily_log_look_activity.xml #generated:294
+# onClick res/layout/daily_log_look_activity.xml #generated:303
+-keepclassmembers class * { *** logfh(...); }
+
+# onClick res/layout/hcnet.xml #generated:14
+-keepclassmembers class * { *** login_back(...); }
+
+# onClick res/layout/hcnet.xml #generated:45
+# onClick res/layout/hcnet.xml #generated:67
+# onClick res/layout/hcnet.xml #generated:88
+-keepclassmembers class * { *** login_mainweixin(...); }
+
+# onClick res/layout/daily_log_add_activity.xml #generated:237
+# onClick res/layout/daily_log_add_activity.xml #generated:245
+# onClick res/layout/daily_log_add_activity.xml #generated:254
+-keepclassmembers class * { *** logtj(...); }
+
+# onClick res/layout/system_seting.xml #generated:97
+-keepclassmembers class * { *** main_tab_setting_check_updata_apk(...); }
+
+# onClick res/layout/system_seting.xml #generated:14
+-keepclassmembers class * { *** main_tab_settings_back(...); }
+
+# onClick res/layout/message_post_web.xml #generated:106
+# onClick res/layout/message_post_web.xml #generated:89
+# onClick res/layout/message_post_web.xml #generated:97
+-keepclassmembers class * { *** message_post_web_tomain(...); }
+
+# onClick res/layout/public_opinion_look_activity.xml #generated:362
+# onClick res/layout/public_opinion_look_activity.xml #generated:371
+# onClick res/layout/public_opinion_look_activity.xml #generated:379
+-keepclassmembers class * { *** opinion_more_delete(...); }
+
+# onClick res/layout/public_opinion_xiugai_activity.xml #generated:314
+# onClick res/layout/public_opinion_xiugai_activity.xml #generated:322
+# onClick res/layout/public_opinion_xiugai_activity.xml #generated:331
+-keepclassmembers class * { *** opinionbc(...); }
+
+# onClick res/layout/public_opinion_add_activity.xml #generated:13
+# onClick res/layout/public_opinion_add_activity.xml #generated:340
+# onClick res/layout/public_opinion_add_activity.xml #generated:348
+# onClick res/layout/public_opinion_add_activity.xml #generated:357
+# onClick res/layout/public_opinion_add_list.xml #generated:109
+# onClick res/layout/public_opinion_add_list.xml #generated:119
+# onClick res/layout/public_opinion_add_list.xml #generated:128
+# onClick res/layout/public_opinion_add_list.xml #generated:15
+# onClick res/layout/public_opinion_look_activity.xml #generated:13
+# onClick res/layout/public_opinion_look_activity.xml #generated:387
+# onClick res/layout/public_opinion_look_activity.xml #generated:395
+# onClick res/layout/public_opinion_look_activity.xml #generated:404
+# onClick res/layout/public_opinion_xiugai_activity.xml #generated:13
+# onClick res/layout/public_opinion_xiugai_activity.xml #generated:340
+# onClick res/layout/public_opinion_xiugai_activity.xml #generated:348
+# onClick res/layout/public_opinion_xiugai_activity.xml #generated:357
+-keepclassmembers class * { *** opinionfh(...); }
+
+# onClick res/layout/public_opinion_add_activity.xml #generated:314
+# onClick res/layout/public_opinion_add_activity.xml #generated:322
+# onClick res/layout/public_opinion_add_activity.xml #generated:331
+-keepclassmembers class * { *** opiniontj(...); }
+
+# onClick res/layout/public_opinion_look_activity.xml #generated:337
+# onClick res/layout/public_opinion_look_activity.xml #generated:345
+# onClick res/layout/public_opinion_look_activity.xml #generated:354
+-keepclassmembers class * { *** opinionxg(...); }
+
+# onClick res/layout/uploadaudio.xml #generated:59
+# onClick res/layout/uploadaudio.xml #generated:67
+# onClick res/layout/uploadaudio.xml #generated:76
+# onClick res/layout/video_view.xml #generated:70
+# onClick res/layout/video_view.xml #generated:78
+# onClick res/layout/video_view.xml #generated:87
+-keepclassmembers class * { *** play(...); }
+
+# onClick res/layout/public_opinion_add_list.xml #generated:100
+# onClick res/layout/public_opinion_add_list.xml #generated:83
+# onClick res/layout/public_opinion_add_list.xml #generated:91
+-keepclassmembers class * { *** public_opinion_add_list_btn_add(...); }
+
+# onClick res/layout/uploadaudio.xml #generated:102
+# onClick res/layout/uploadaudio.xml #generated:85
+# onClick res/layout/uploadaudio.xml #generated:93
+-keepclassmembers class * { *** recording(...); }
+
+# onClick res/layout/mian_people_visit_search_for_main_person.xml #generated:37
+# onClick res/layout/mian_place_check_search_for_main_place.xml #generated:37
+-keepclassmembers class * { *** rylx(...); }
+
+# onClick res/layout/main_persion_list.xml #generated:71
+# onClick res/layout/main_persion_list.xml #generated:79
+# onClick res/layout/main_persion_list.xml #generated:88
+-keepclassmembers class * { *** save(...); }
+
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:545
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:553
+# onClick res/layout/mian_place_check_edit_activity.xml #generated:562
+-keepclassmembers class * { *** sc(...); }
+
+# onClick res/layout/mian_people_visit.xml #generated:99
+# onClick res/layout/mian_place_check_list.xml #generated:101
+-keepclassmembers class * { *** search_for_contact_btn_onclick(...); }
+
+# onClick res/layout/mian_people_visit_search_for_main_person.xml #generated:61
+# onClick res/layout/mian_place_check_search_for_main_place.xml #generated:61
+# onClick res/layout/search_for_main_person.xml #generated:45
+-keepclassmembers class * { *** search_for_qy_btn_onclick(...); }
+
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:274
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:286
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:310
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:276
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:288
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:312
+# onClick res/layout/event_add_activity.xml #generated:276
+# onClick res/layout/event_add_activity.xml #generated:288
+# onClick res/layout/event_add_activity.xml #generated:315
+-keepclassmembers class * { *** sfgm(...); }
+
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:431
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:433
+# onClick res/layout/event_add_activity.xml #generated:438
+-keepclassmembers class * { *** sjlx(...); }
+
+# onClick res/layout/uploadaudio.xml #generated:111
+# onClick res/layout/uploadaudio.xml #generated:119
+# onClick res/layout/uploadaudio.xml #generated:128
+-keepclassmembers class * { *** stop_recording(...); }
+
+# onClick 480x320\res/layout-480x320/main_tab_weixin.xml #generated:44
+# onClick 640x360\res/layout-640x360/main_tab_weixin.xml #generated:42
+# onClick 800x480\res/layout-800x480/main_tab_weixin.xml #generated:42
+# onClick res/layout/main_tab_weixin.xml #generated:44
+-keepclassmembers class * { *** toweb2(...); }
+
+# onClick res/layout/uploadpictrue.xml #generated:104
+# onClick res/layout/uploadpictrue.xml #generated:89
+# onClick res/layout/uploadpictrue.xml #generated:96
+-keepclassmembers class * { *** uploadpicture_pick_btn(...); }
+
+# onClick res/layout/uploadpictrue.xml #generated:66
+# onClick res/layout/uploadpictrue.xml #generated:73
+# onClick res/layout/uploadpictrue.xml #generated:81
+-keepclassmembers class * { *** uploadpicture_take_btn(...); }
+
+# onClick res/layout/uploadpictrue.xml #generated:112
+# onClick res/layout/uploadpictrue.xml #generated:119
+# onClick res/layout/uploadpictrue.xml #generated:127
+-keepclassmembers class * { *** uploadpicture_up_btn(...); }
+
+# onClick res/layout/uploadvideo.xml #generated:104
+# onClick res/layout/uploadvideo.xml #generated:113
+# onClick res/layout/uploadvideo.xml #generated:96
+-keepclassmembers class * { *** uploadvideo_pick_btn(...); }
+
+# onClick res/layout/uploadvideo.xml #generated:70
+# onClick res/layout/uploadvideo.xml #generated:78
+# onClick res/layout/uploadvideo.xml #generated:87
+-keepclassmembers class * { *** uploadvideo_play_btn(...); }
+
+# onClick res/layout/uploadvideo.xml #generated:122
+# onClick res/layout/uploadvideo.xml #generated:130
+# onClick res/layout/uploadvideo.xml #generated:139
+-keepclassmembers class * { *** uploadvideo_take_btn(...); }
+
+# onClick res/layout/uploadvideo.xml #generated:148
+# onClick res/layout/uploadvideo.xml #generated:156
+# onClick res/layout/uploadvideo.xml #generated:165
+-keepclassmembers class * { *** uploadvideo_up_btn(...); }
+
+# onClick 800x480\res/layout-800x480/urgent_manage_three.xml #generated:116
+-keepclassmembers class * { *** urgent_manage_three_lwgl(...); }
+
+# onClick 800x480\res/layout-800x480/urgent_manage_three.xml #generated:79
+-keepclassmembers class * { *** urgent_manage_three_sjxb(...); }
+
+# onClick 800x480\res/layout-800x480/urgent_manage_three.xml #generated:42
+-keepclassmembers class * { *** urgent_manage_three_tfsj(...); }
+
+# onClick 800x480\res/layout-800x480/welcome.xml #generated:89
+# onClick res/layout/welcome.xml #generated:91
+-keepclassmembers class * { *** welcome_login(...); }
+
+# onClick 480x320\res/layout-480x320/event_add_activity.xml #generated:149
+# onClick 800x480\res/layout-800x480/event_add_activity.xml #generated:151
+# onClick res/layout/event_add_activity.xml #generated:149
+-keepclassmembers class * { *** zydsr(...); }
+

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/cbj3" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_btn_back"
+            android:onClick="eventfh"
+            android:text="返回"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="事件登记"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="55dp"
+        android:layout_marginTop="45dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="20.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="事件名称:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <EditText
+                    android:id="@+id/event_add_sjmc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="32" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="20.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:onClick="fswl"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="fswl"
+                    android:text="发生网格:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/event_add_fswl"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:onClick="fswl"
+                    android:singleLine="true"
+                    android:text="连江县"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="20.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发生地点:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <EditText
+                    android:id="@+id/event_add_fsdd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="64" >
+                </EditText>
+
+                <ImageButton
+                    android:id="@+id/messagereport_address_image_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="2"
+                    android:background="#00000000"
+                    android:onClick="event_add_gps_btn"
+                    android:src="@drawable/sjsb_dw" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="20.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:onClick="zydsr"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="辖内当事人:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <TextView
+                    android:id="@+id/event_add_zydsr"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="3"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="17sp" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="20.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="非辖内当事人:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <EditText
+                    android:id="@+id/event_add_zydsr_edit"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="64"
+                    android:textSize="17sp" >
+                </EditText>
+            </LinearLayout>
+            <!--
+                 <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:id="@+id/zydsr_lin_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15.0px"
+                    android:layout_marginRight="15.0px"
+                    android:layout_marginTop="20.0px"
+                    android:background="@drawable/layoutbg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dip" 
+                    android:onClick="zydsr">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.15" 
+                        android:text="主要当事人:"
+                        android:textColor="#ff3f3f3f"
+                        android:textSize="16.0dip" />
+
+                    <EditText
+                        android:id="@+id/event_add_zydsr_edit"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="3"
+                        android:background="@drawable/edit_text"
+                        android:textSize="17sp"
+                        android:visibility="gone" 
+                        android:maxLength="64">
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/event_add_zydsr"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="3"  
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textSize="17sp" >
+                    </TextView>
+                </LinearLayout> 
+                    <CheckBox
+                        android:id="@+id/event_add_sfqtry_chcek"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/zydsr_lin_layout"
+                        android:layout_marginTop="20.0px"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginLeft="10dp"  />
+            </RelativeLayout>
+            -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="20.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:onClick="sfgm"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="sfgm"
+                    android:text="事发规模:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <!--
+                <net.evecom.android.view.wheel.WheelView
+                    android:id="@+id/event_add_sfgm_country"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1" />   
+                  <EditText
+                    android:id="@+id/event_add_sfgm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:editable="false"
+                    android:text="" >
+                </EditText>
+                -->
+
+                <TextView
+                    android:id="@+id/event_add_sfgm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:onClick="sfgm"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="17sp" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="10.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="是否紧急事件:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <CheckBox
+                    android:id="@+id/event_add_sfjjsj_chcek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+
+            <!--
+                 <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="10.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="是否重点场所:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <CheckBox
+                    android:id="@+id/event_add_sfzdcs_chcek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+            -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="10.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="是否重大事件:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <CheckBox
+                    android:id="@+id/event_add_sfzdsj_chcek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="10.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="涉及人数:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <EditText
+                    android:id="@+id/event_add_sjrs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="5"
+                    android:numeric="integer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="10.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:onClick="sjlx"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="事件类型:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <TextView
+                    android:id="@+id/event_add_sjlx"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="17sp" >
+                </TextView>
+                <!--
+                     <EditText
+                    android:id="@+id/event_add_sjlx"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text"
+                    android:editable="false"
+                    android:maxLength="150"
+                    android:text="物防设施" />
+                -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="10.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="事件描述:"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="16.0dip" />
+
+                <EditText
+                    android:id="@+id/event_add_sjms"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text"
+                    android:maxLength="200" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15.0px"
+                android:layout_marginRight="15.0px"
+                android:layout_marginTop="20.0px"
+                android:background="@drawable/layoutbg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <TextView
+                    android:layout_width="21dp"
+                    android:layout_height="wrap_content"
+                    android:text="上传 文件"
+                    android:textColor="#ff3f3f3f"
+                    android:textSize="20dp" />
+
+                <ListView
+                    android:id="@+id/event_add_file_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:cacheColorHint="#00000000"
+                    android:divider="#333"
+                    android:dividerHeight="1dp" >
+                </ListView>
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="3"
+                    android:background="#00000000"
+                    android:onClick="findpicture_onclick"
+                    android:src="@android:drawable/ic_menu_search" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bar"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="2dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:onClick="eventbc"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/img_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="eventbc"
+                    android:scaleType="matrix"
+                    android:src="@drawable/tab1_edit" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="eventbc"
+                    android:text="保存"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:onClick="eventfh"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/img_return"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="eventfh"
+                    android:scaleType="matrix"
+                    android:src="@drawable/sjsb_qx" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="eventfh"
+                    android:text="取消"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:layout_margin="20dp"
+    android:background="#00000000"  >
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        
+          >    
+               
+            <TextView
+                android:id="@+id/daily_log_list_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                             
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="7dp"
+                android:singleLine="true"
+                android:text="标题："
+                android:textColor="#f46101"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                android:typeface="serif"
+            	/> 
+            	 <TextView
+            android:id="@+id/daily_log_list_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="所属网格："
+            android:textColor="#88777777"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+            	 <TextView
+                 android:id="@+id/daily_log_list_lawtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_below="@id/daily_log_list_name_id"                  
+                android:text="类型："
+                android:padding="7dp"
+                android:textColor="#88777777"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:typeface="serif"   /> 
+           
+
+            <TextView
+                android:id="@+id/daily_log_list_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="时间："
+                android:textColor="#88777777"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:typeface="serif" />
+ </LinearLayout>
+</LinearLayout>

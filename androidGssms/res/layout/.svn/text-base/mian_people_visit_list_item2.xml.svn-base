@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dp"
+    android:background="#00000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mian_peolple_visit_list_item2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:padding="5dp" 
+            android:text="姓名:"
+            android:textColor="#f46101"
+            android:textSize="19sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+<!-- android:singleLine="true" -->
+
+
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    <TextView
+            android:id="@+id/mian_peolple_visit_list_item2_sex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="性别:"
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:typeface="serif"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/mian_peolple_visit_list_item2_birth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="出身日期："
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:typeface="serif" 
+            android:layout_weight="1"/>
+</LinearLayout>
+        
+
+        <TextView
+            android:id="@+id/mian_peolple_visit_list_item2_zfsj"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="走访时间："
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+        
+                <TextView
+            android:id="@+id/mian_peolple_visit_list_item2_zfxs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="走访形式："
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+                
+                        <TextView
+            android:id="@+id/mian_peolple_visit_list_item2_zfxg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="走访效果："
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:typeface="serif" />
+    </LinearLayout>
+
+</LinearLayout>

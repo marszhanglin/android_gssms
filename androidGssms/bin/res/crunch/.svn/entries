@@ -1,0 +1,56 @@
+10
+
+dir
+11878
+https://192.168.200.1/svn/2014/rd3/sourcecode/gssms/gssmsAndroid/bin/res/crunch
+https://192.168.200.1/svn/2014
+delete
+
+
+2014-09-22T00:37:13.711875Z
+10132
+zhanglin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f99d8e17-0dcd-5c4a-a042-9ee94a8e6d5a
+
+drawable-hdpi
+dir
+
+
+
+delete
+
+drawable-xxhdpi
+dir
+
+
+
+delete
+
+drawable-mdpi
+dir
+
+
+
+delete
+
+drawable-xhdpi
+dir
+
+
+
+delete
+

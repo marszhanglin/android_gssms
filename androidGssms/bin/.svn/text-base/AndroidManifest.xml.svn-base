@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.evecom.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 使用网络功能所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 拍照权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA.AUTOFOCUS" />
+    <!-- 录制视频/音频权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- sd卡读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 挂载sd卡 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> 
+    <!--  -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+	<!-- <uses-permission android:name="android.permission.DEVICE_POWER"/> -->
+
+     <!-- persistent="true"坚持不懈     android:persistent="true" -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar"
+         >
+
+        <!-- 1 百度密钥 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="0UBf2mzjI2WLGWQpKVXPmFwi" >
+        </meta-data>
+
+        <activity
+            android:name="net.evecom.android.Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Exit"
+            android:theme="@style/MyDialogStyle" />
+        <activity
+            android:name=".ExitFromSettings"
+            android:theme="@style/MyDialogStyleBottom" />
+        <activity
+            android:name=".SystemSetingActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MainOneActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".EventAddActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".web.Web0Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".web.Web2Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".web.Web3Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".web.Web4Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".web.Web5Activity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".web.WebdbActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        
+        <activity
+            android:name=".UploadPictureActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".AfnailPictureActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".UploadVideoActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".AfinalVideoActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".UploadAudioActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".AfinalAudioActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".SearchForMianPersonActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MainPersonListActivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> 
+        <activity
+            android:name=".DailyWorkActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MianPeopleVisitActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MianPeopleVisitSearchForMianPersonActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MianPeopleVisitAddActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MianPeopleVisitEditActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MianPlaceCheckVisitActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MianPlaceCheckSearchForMianPlaceActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MianPlaceCheckAddActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MianPlaceCheckEditActivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> 
+       <activity
+            android:name=".AfnailPictureFromWebActivity"
+            android:theme="@android:style/Theme.NoTitleBar" /> 
+      <activity
+            android:name=".PowerOnBroadcastReceiver"
+            android:theme="@android:style/Theme.NoTitleBar" />  
+      <activity
+            android:name=".EventAddActivity1"
+            android:theme="@android:style/Theme.NoTitleBar" />  
+      <activity
+            android:name=".gps.tdt.TDTLocation"
+            android:theme="@android:style/Theme.NoTitleBar" />  
+       
+       
+	         <!-- SLQ --> 
+	     <activity
+	            android:name=".PublicOpinionAddActivity"
+	            android:theme="@android:style/Theme.NoTitleBar" />
+	     <activity
+	            android:name=".PublicOpinionlistActivity"
+	            android:theme="@android:style/Theme.NoTitleBar" />
+	     <activity
+	            android:name=".PublicOpinionLookActivity"
+	            android:theme="@android:style/Theme.NoTitleBar" /> 
+	    <activity
+	            android:name=".PublicOpinionXiugaiActivity"
+	            android:theme="@android:style/Theme.NoTitleBar" />
+	    
+	      <activity
+	            android:name=".log.DailyLogListActivity"
+	            android:theme="@android:style/Theme.NoTitleBar" />
+	      <activity
+	            android:name=".log.DailyLogAddActivity"
+	            android:theme="@android:style/Theme.NoTitleBar" />
+	    
+	      <activity
+	            android:name=".log.DailyLogLookActivity"
+	            android:theme="@android:style/Theme.NoTitleBar" />
+	      
+	      
+	      
+	      
+	      
+        <!-- 2  baiduActivity -->
+        <!--
+            <activity android:name=".gps.GPSActivity" 
+                android:screenOrientation="sensor"
+                android:configChanges="orientation|keyboardHidden"/>
+        -->
+        <!-- baiduActivity -->
+        <activity
+            android:name=".gps.GPSActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensor" />
+        <!-- 3 百度定位服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+        
+                <!--  离线消息推送服务 -->
+       <!--  <service android:name=".gps_service.StatusService"
+            android:process=":httpmessage"
+            > 
+            </service> -->
+<!--             <service android:name=".gps_service.StatusService" 
+                android:enabled="true"
+            > 
+            </service> -->
+            
+            <service android:name=".gps_service.StatusTDTService" 
+                android:enabled="true"
+                android:persistent="true"
+            > 
+            </service>
+              
+            <receiver android:name=".receive.ShutdownBroadcastReceiver" >  
+            <intent-filter>    
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />  
+            </intent-filter>   
+        </receiver>  
+        
+        
+             
+            <receiver android:name=".receive.PowerOnBroadcastReceiver" >  
+            <intent-filter>    
+                <action android:name="android.intent.action.BOOT_COMPLETED" />  
+            </intent-filter>   
+        </receiver>  
+            
+    </application>
+    <!-- 使用网络功能所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <!-- SDK离线地图和cache功能需要读写外部存储器 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+    
+ 
+    <!-- 获取设置信息和详情页直接拨打电话需要以下权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <!-- 使用定位功能所需权限,demo已集成百度定位SDK,不使用定位功能可去掉以下6项 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+
+    
+
+    <!-- 添加屏幕支持 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+</manifest>
